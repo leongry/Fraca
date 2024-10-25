@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+li{
+    display: inline-block;
+    width: 22%;
+    height: 100px;  
+    
+}
+.azul{
+    background-color: blue;
+    font-family: "Anton", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  transition: 1s;
+}
+.red{
+    background-color: white;
+    font-family: "Anton", serif;
+     font-weight: 400;
+    font-style: normal;
+    color: blue;
+    transition: 1s;
+}
+
+.verde{
+    background-color: rgb(255, 0, 0);
+    font-family: "Anton", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  transition: 1s;
+}
+
+div{
+    display: inline-block;
+    width: 33%;
+    height: 150px;
+}
+body{
+    background-image: url('france.jpg');
+    background-size: cover; 
+    background-position: center; 
+}
+
+.red:hover{
+    height: 230px;
+}
+.verde:hover{
+    height: 230px;
+}
+.azul:hover{
+    height:230px;
+}
+.tblu{
+   margin-left: 590px;
+   font-family: "Anton", serif;
+   font-weight: 400;
+   font-style: normal;
+   color: blue;
+}
+.twhi{
+    margin-left: 640px;
+    font-family: "Anton", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+ }
+ .tre{
+    margin-left: 690px;
+    font-family: "Anton", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: red;
+ }
+
+ .tre, .twhi, .tblu{
+    text-shadow: 2px 3px 4px rgb(0, 0, 0);
+ }
+
+ .red, .verde, .azul{
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+ }
